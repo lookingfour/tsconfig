@@ -1,0 +1,40 @@
+{
+  "name": "@lookingfour/tsconfig",
+  "version": "0.0.0",
+  "description": "An tsconfig configuration that is being used by LookingFour.",
+  "main": "service.json",
+  "author": {
+    "email": "dev@lookingfour.com",
+    "name": "LookingFour Development Team"
+  },
+  "maintainers": [
+    {
+      "email": "dev.darwinarandilla@gmail.com",
+      "name": "Darwin Arandilla"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lookingfour/tsconfig.git"
+  },
+  "homepage": "https://github.com/lookingfour/tsconfig",
+  "bugs": {
+    "email": "dev@lookingfour.com",
+    "url": "https://github.com/lookingfour/tsconfig/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "_base.json",
+    "react.json",
+    "service.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
